@@ -1,0 +1,27 @@
+<div id="main-header" class="main-header">
+    <nav aria-label="Auxiliary" class="aux-nav">
+        <ul class="aux-nav-list">
+            <li class="aux-nav-list-item">
+              <h2><a href="/" style="text-decoration: none; color: #5c5962;" class="site-button">
+                AWS Solutions Library Samples
+              </a></h2>
+            </li>
+        </ul>
+      </nav>
+      <div></div>
+    {% if site.aux_links %}
+    <nav aria-label="Auxiliary" class="aux-nav">
+        <ul class="aux-nav-list">
+          {% for link in site.aux_links %}
+            <li class="aux-nav-list-item">
+                <h3><a href="{{ link.last }}" style="text-decoration: none; color: #5c5962;" class="site-button"
+                    target="_blank" rel="noopener noreferrer" >
+                    {{ link.first }}
+                  </a></h3>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </div>
+  

@@ -1,0 +1,28 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="{{ 'assets/css/just-the-docs-default.css' }}">
+  
+
+  {% if site.search_enabled != false %}
+    <script src="{{ 'assets/js/vendor/lunr.min.js' }}"></script>
+  {% endif %}
+
+  <script src="{{ 'assets/js/just-the-docs.js' }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- {% for file in site.static_files %}
+    {% if file.path == site.favicon_ico or file.path == '/favicon.ico' %}
+      {% assign favicon = true %}
+    {% endif %}
+  {% endfor %}
+  {% if favicon %} -->
+   
+    <link rel="shortcut icon" href="{{ "images/aws.png"  }}">
+  <!-- {% endif %} -->
+
+  {% include head_custom.html %}
+
+</head>

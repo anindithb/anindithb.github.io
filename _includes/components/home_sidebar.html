@@ -1,0 +1,25 @@
+<div class="side-bar">
+    <div class="site-header">
+      <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    
+    <nav aria-label="Main" id="site-nav" class="site-nav">
+      <!-- <ul style="padding-right: 10px;font-weight: 600;">{{page.title}}</ul> -->
+      <hr>
+    </nav>
+  
+    {% capture nav_footer_custom %}
+      {%- include nav_footer_custom.html -%}
+    {% endcapture %}
+    {% if nav_footer_custom != "" %}
+      {{ nav_footer_custom }}
+    {% else %}
+      <footer class="site-footer">
+        This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      </footer>
+    {% endif %}
+  </div>
+  

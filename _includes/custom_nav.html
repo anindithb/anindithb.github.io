@@ -1,0 +1,46 @@
+{% assign sidebar = site.data.sidebars[page.sidebar].entries %}
+<ul class="nav-list">
+{% for entry in sidebar %}
+  {% for folder in entry.folders %}
+    {% if folder.external_url %}
+      <li class="nav-list-item external">
+        <a href="{{ folder.external_url | absolute_url }}" target="_blank" rel="noopener noreferrer" class="nav-list-link external">
+          {{ folder.title }}
+          <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>
+        </a>
+      </li>
+    {% endif %}
+    {% unless folder.external_url %}
+      <li class="nav-list-item{% if page.collection == include.key and page.url == node.url or page.grand_parent == node.title or page.parent == node.title and page.grand_parent == nil %} active{% endif %}">
+        <a href="{{ folder.url | remove: "/" }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ folder.title }}</a>
+      </li>
+    {% endunless %}
+      {% endfor %}
+{%- endfor -%}
+</ul>
+
+<!-- {%- if page.collection == include.key -%}
+  {%- for node in first_level_pages -%}
+      {%- if page.grand_parent == node.title or page.parent == node.title and page.grand_parent == nil -%}
+        {%- assign first_level_url = node.url | relative_url -%}
+      {%- endif -%}
+      {%- if node.has_children -%}
+        {%- assign children_list = second_level_pages | where: "parent", node.title -%}
+        {%- for child in children_list -%}
+          {%- if child.has_children -%}
+            {%- if page.url == child.url or page.parent == child.title and page.grand_parent == child.parent -%}
+              {%- assign second_level_url = child.url | relative_url -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+  {%- endfor -%}
+  {%- if page.has_children == true and page.has_toc != false -%}
+    {%- assign toc_list = pages_list
+          | where: "parent", page.title
+          | where_exp: "item", "item.grand_parent == page.parent" -%}
+    {%- if page.child_nav_order == 'desc' or page.child_nav_order == 'reversed' -%}
+      {%- assign toc_list = toc_list | reverse -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%} -->
