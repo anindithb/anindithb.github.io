@@ -16,7 +16,7 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 4 + #{$nav-width});
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
   }
 }
@@ -74,17 +74,10 @@
 }
 
 .site-nav,
+.site-header,
 .site-footer {
   width: 100%;
 
-  @include mq(lg) {
-    width: $nav-width;
-  }
-}
-
-.site-header{
-  width: 100%;
-  font-weight: 500;
   @include mq(lg) {
     width: $nav-width;
   }

@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Anin test Library Samples
+title: Just the Docs
 description: A Jekyll theme for documentation
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://anindithb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: anindithb/anindithb.github.io # for github-metadata
+baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: just-the-docs/just-the-docs # for github-metadata
 
 permalink: pretty
 
@@ -83,10 +83,10 @@ search:
 enable_copy_code_button: true
 
 # By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
-# mermaid:
-#   # Version of mermaid library
-#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-#   version: "9.1.6"
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.6"
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
   # To load mermaid from a local library, also use the `path` key to specify the location of the library; e.g.
@@ -101,17 +101,20 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Visit AWS Solutions Library":
-    - "https://aws.amazon.com/solutions/"
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
 
-# # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
 
-# # Sort order for navigation links
-# # nav_sort: case_insensitive # default, equivalent to nil
-# nav_sort: case_sensitive # Capital letters sorted before lowercase
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
 
-
+# External navigation links
+nav_external_links:
+  - title: Just the Docs on GitHub
+    url: https://github.com/just-the-docs/just-the-docs
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -120,17 +123,21 @@ aux_links_new_tab: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-#footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
+footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
 
 # Footer last edited timestamp
-#last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-#last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: false # show or hide edit this page link
- # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
@@ -159,10 +166,8 @@ callouts:
 # ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
-  - jekyll-default-layout
-# plugins:
-#   - jekyll-seo-tag
-#   - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-github-metadata
 
 kramdown:
   syntax_highlighter_opts:
