@@ -1,0 +1,18 @@
+entries:
+- title: Guidance for test test test on AWS
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Overview
+      url: '#overview'
+      output: web 
+
+    - title: Architecture
+      url: '#architecture'
+      output: web
+
+    - title: Deployment Options
+      url: '#deployment-options'
+      output: web
