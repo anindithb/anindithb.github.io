@@ -1,0 +1,58 @@
+entries:
+- title: Guidance for Uploading Audiences created in AWS Clean Rooms to TikTok Ads
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Overview
+      url: '#overview'
+      output: web 
+
+    - title: Cost and licenses
+      url: '#cost-and-licenses'
+      output: web 
+
+    - title: Architecture Overview
+      url: '#architecture-overview'
+      output: web
+
+    - title: Security
+      url: '#security'
+      output: web
+
+    - title: Implementation Steps
+      url: '#implementation-steps'
+      output: web
+
+    - title: Testing
+      url: '#testing'
+      output: web
+
+    - title: Cleanup
+      url: '#cleanup'
+      output: web
+
+    - title: Resources
+      url: '#resources'
+      output: web
+
+    - title: Source Code
+      url: '#source-code'
+      output: web
+
+    - title: Document Revisions
+      url: '#document-revisions'
+      output: web
+
+    - title: Contributors
+      url: '#contributors'
+      output: web
+
+    - title: Notices
+      url: '#notices'
+      output: web
+
+    - title: AWS glossary
+      url: '#aws-glossary'
+      output: web

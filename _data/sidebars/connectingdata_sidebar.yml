@@ -1,0 +1,19 @@
+
+entries:
+- title: Guidance for Connecting Data to AWS Clean Rooms
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Reference Architecture for Data Connector
+      url: '#reference-architecture-for-data-connector'
+      output: web 
+
+    - title: Implementation Examples for common sources of advertising and marketing data
+      url: '#implementation-examples-for-common-sources-of-advertising-and-marketing-data'
+      output: web 
+
+    - title: Further Strategies to consider for data ingestion
+      url: '#further-strategies-to-consider-for-data-ingestion'
+      output: web

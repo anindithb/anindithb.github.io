@@ -1,0 +1,30 @@
+
+entries:
+- title: Guidance for Connecting Audiences to Amazon Marketing Cloud Uploader
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+      # type: homepage
+
+    - title: Implementation
+      url: '#implementation'
+      output: web 
+      # type: homepage
+
+    - title: Formatting Data For AMC uploader from AWS
+      url: '#formatting-data-for-amc-uploader-from-aws'
+      output: web 
+
+    - title: AMC file format requirements
+      url: '#amc-file-format-requirements'
+      output: web
+
+    - title: AMC Data Types, Timestamp and Date Formats
+      url: '#amc-data-types-timestamp-and-date-formats'
+      output: web
+
+    - title: AMC fact vs dimension datasets
+      url: '#amc-fact-vs-dimension-datasets'
+      output: web
+

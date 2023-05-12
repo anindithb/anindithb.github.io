@@ -1,0 +1,54 @@
+entries:
+- title: Guidance for Automated Provisioning of Amazon Elastic Kubernetes Service (EKS) using Terraform Implementation Guide
+  folders:
+    - title: Get Started
+      url: '#'
+      output: web 
+
+    - title: Introduction
+      url: '#introduction'
+      output: web 
+
+    - title: What are EKS Blueprints?
+      url: '#what-are-eks-blueprints'
+      output: web 
+
+    - title: Core Concepts
+      url: '#core-concepts'
+      output: web 
+
+    - title: Node Groups
+      url: '#node-groups'
+      output: web 
+    
+    - title: IAM Policies and Roles
+      url: '#iam-policies-and-roles'
+      output: web 
+
+    - title: Teams
+      url: '#teams-1'
+      output: web 
+
+    - title: Kubernetes Add-ons Modules
+      url: '#kubernetes-add-ons-modules'
+      output: web 
+
+    - title: Updating Managed Add-ons
+      url: '#updating-managed-add-ons'
+      output: web 
+
+    - title: Running new VPC EKS Terraform Blueprint
+      url: '#running-new-vpc-eks-terraform-blueprint'
+      output: web 
+
+    - title: Running Argo CD EKS Terraform Blueprint
+      url: '#running-argo-cd-eks-terraform-blueprint'
+      output: web 
+
+    - title: Running Apache Spark on EKS Terraform Blueprint
+      url: '#running-apache-spark-on-eks-terraform-blueprint'
+      output: web 
+
+    - title: Support and Troubleshooting
+      url: '#support-and-troubleshooting'
+      output: web 

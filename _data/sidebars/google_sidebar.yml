@@ -1,0 +1,63 @@
+
+entries:
+- title: Guidance for Connecting Data from Google Analytics to AWS Clean Rooms
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Overview
+      url: '#overview'
+      output: web 
+
+    - title: Cost and licenses
+      url: '#cost-and-licenses'
+      output: web 
+
+    - title: Architecture Overview
+      url: '#architecture-overview'
+      output: web 
+
+    - title: Security
+      url: '#security'
+      output: web
+
+    - title: Implementation Steps
+      url: '#implementation-steps'
+      output: web
+    
+    - title: Testing
+      url: '#testing'
+      output: web
+    
+    - title: Sample Queries
+      url: '#sample-queries'
+      output: web
+    
+    - title: Cleanup
+      url: '#cleanup'
+      output: web
+
+    - title: Resources
+      url: '#resources'
+      output: web
+
+    - title: Source Code
+      url: '#source-code'
+      output: web
+
+    - title: Revisions
+      url: '#revisions'
+      output: web
+
+    - title: Contributors
+      url: '#contributors'
+      output: web
+
+    - title: AWS Glossary
+      url: '#aws-glossary'
+      output: web
+
+    - title: Notices
+      url: '#notices'
+      output: web

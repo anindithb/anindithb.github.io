@@ -1,0 +1,50 @@
+
+entries:
+- title: Guidance for Connecting Data from Adobe Experience Platform to AWS Clean Rooms
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+      # type: homepage
+
+    - title: Scenario
+      url: '#scenario'
+      output: web 
+      # type: homepage
+
+    - title: Implementation Details
+      url: '#implementation-details'
+      output: web 
+
+    - title: Data Ingestion
+      url: '#data-ingestion'
+      output: web
+
+    - title: Data Processing
+      url: '#data-processing'
+      output: web
+
+    - title: Data Catalog
+      url: '#data-catalog'
+      output: web
+
+
+    - title: Automation using AWS Step Function and Amazon EventBridge
+      url: '#automation-using-aws-step-functions-and-amazon-eventbridge'
+      output: web
+
+
+    - title: Creating AWS Step Function
+      url: '#1--create-aws-step-function'
+      output: web
+    - title: Scheduling AWS Step Function using Amazon Event Bridge
+      url: '#2--schedule-the-aws-step-function-using-amazon-eventbridge-rule'
+      output: web
+
+    - title: Closing Out
+      url: '#closing-out'
+      output: web
+
+    - title: Notices
+      url: '#notices'
+      output: web

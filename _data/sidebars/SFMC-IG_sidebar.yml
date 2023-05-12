@@ -1,0 +1,41 @@
+
+entries:
+- title: Guidance for Connecting Data from Salesforce Marketing Cloud to AWS Clean Rooms
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+      # type: homepage
+
+    - title: Scenario
+      url: '#scenario'
+      output: web 
+      # type: homepage
+
+    - title: Implementation Details
+      url: '#implementation-details'
+      output: web 
+
+    - title: Data Ingestion
+      url: '#data-ingestion'
+      output: web
+
+    - title: Data Processing
+      url: '#data-processing'
+      output: web
+
+    - title: Data Catalog
+      url: '#data-catalog'
+      output: web
+
+    - title: Automation using AWS Step Function and Amazon EventBridge
+      url: '#automation-using-aws-step-functions-and-amazon-eventbridge'
+      output: web
+
+    - title: Scheduling AWS Step Function using Amazon Event Bridge
+      url: '#schedule-the-aws-step-functions-using-amazon-eventbridge-rule'
+      output: web
+
+    - title: Notices
+      url: '#notices'
+      output: web

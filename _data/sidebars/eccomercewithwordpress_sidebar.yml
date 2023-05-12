@@ -1,0 +1,14 @@
+entries:
+- title: Guidance for Launching a Simple E-commerce Website with WordPress on AWS
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Benefits
+      url: '#benefits'
+      output: web 
+
+    - title: Architecture workflow
+      url: '#architecture-workflow'
+      output: web 

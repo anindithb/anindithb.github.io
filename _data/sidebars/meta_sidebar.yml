@@ -1,0 +1,30 @@
+entries:
+- title: Guidance for Uploading Audiences created in AWS Clean Rooms to Meta Business Marketing Platform
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Overview
+      url: '#overview'
+      output: web 
+
+    - title: Considerations for this guidance
+      url: '#considerations-for-this-guidance'
+      output: web 
+
+    - title: Solution Architecture for AWS Clean Rooms Activation flow
+      url: '#solution-architecture-for-aws-clean-rooms-activation-flow'
+      output: web 
+
+    - title: Detailed steps for Meta activation after data collaboration
+      url: '#detailed-steps-for-meta-activation-after-data-collaboration'
+      output: web
+
+    - title: Conclusion
+      url: '#conclusion'
+      output: web
+
+    - title: Notices
+      url: '#notices'
+      output: web

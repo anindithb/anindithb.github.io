@@ -1,0 +1,32 @@
+entries:
+- title: Guidance for Building Queries in AWS Clean Rooms
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+      # type: homepage
+
+    - title: Scenario
+      url: '#scenario'
+      output: web 
+      # type: homepage
+
+    - title: Data Prep
+      url: '#data-prep'
+      output: web 
+
+    - title: Querying Data within the AWS Data Clean Rooms
+      url: '#querying-data-within-the-aws-data-clean-rooms'
+      output: web
+
+    - title: Use of Amazon Athena
+      url: '#use-of-amazon-athena'
+      output: web
+
+    - title: Use of Amazon QuickSight
+      url: '#use-of-amazon-quicksight'
+      output: web
+
+    - title: Example Scenario and Queries
+      url: '#example-scenario-and-queries'
+      output: web

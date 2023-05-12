@@ -1,0 +1,19 @@
+entries:
+- title: Guidance for Developing Applications Using Generative AI with Amazon CodeWhisperer
+  folders:
+    - title: Get started
+      url: '#'
+      output: web 
+
+    - title: Starting CodeWhisperer
+      url: '#starting-codewhisperer'
+      output: web 
+
+    - title: Automate unit test generation (Python)
+      url: '#use-case-automate-unit-test-generation-python'
+      output: web
+
+    - title: Build applications using AWS services
+      url: '#use-case-build-applications-using-aws-services'
+      output: web
+
