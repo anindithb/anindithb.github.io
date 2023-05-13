@@ -98,7 +98,6 @@ function initSearch() {
           });
         }
       });
-
       searchLoaded(index, docs);
     } else {
       console.log('Error loading ajax request. Request status:' + request.status);
@@ -117,7 +116,7 @@ function searchLoaded(index, docs) {
   var docs = docs;
   var searchInput = document.getElementById('search-input');
   var searchResults = document.getElementById('search-results');
-  var mainHeader = document.getElementById('main-header');
+  // var guideTitle = document.getElementById('guide-title').innerHTML;
   var currentInput;
   var currentSearchIndex = 0;
 
@@ -152,6 +151,7 @@ function searchLoaded(index, docs) {
 
     var results = index.query(function (query) {
       var tokens = lunr.tokenizer(input)
+     
       query.term(tokens, {
         boost: 10
       });
@@ -159,6 +159,7 @@ function searchLoaded(index, docs) {
         wildcard: lunr.Query.wildcard.TRAILING
       });
     });
+    
 
     if ((results.length == 0) && (input.length > 2)) {
       var tokens = lunr.tokenizer(input).filter(function(token, i) {
@@ -184,7 +185,7 @@ function searchLoaded(index, docs) {
       resultsList.classList.add('search-results-list');
       searchResults.appendChild(resultsList);
 
-      addResults(resultsList, results, 0, 10, 100, currentSearchIndex);
+      addResults(resultsList, results, 0, 5, 5, currentSearchIndex);
     }
 
     function addResults(resultsList, results, start, batchSize, batchMillis, searchIndex) {
@@ -203,8 +204,8 @@ function searchLoaded(index, docs) {
     }
 
     function addResult(resultsList, result) {
+      var guideTitle = document.getElementById('guide-title').innerHTML;
       var doc = docs[result.ref];
-
       var resultsListItem = document.createElement('li');
       resultsListItem.classList.add('search-results-list-item');
       resultsList.appendChild(resultsListItem);
@@ -212,6 +213,13 @@ function searchLoaded(index, docs) {
       var resultLink = document.createElement('a');
       resultLink.classList.add('search-result');
       resultLink.setAttribute('href', doc.url);
+      if(doc.doc == guideTitle.slice(1)){
+      }
+      else{
+        resultLink.setAttribute('target','_blank');
+        resultLink.setAttribute('rel','noopener noreferrer');
+      }
+      
       resultsListItem.appendChild(resultLink);
 
       var resultTitle = document.createElement('div');
@@ -221,12 +229,31 @@ function searchLoaded(index, docs) {
       // note: the SVG svg-doc is only loaded as a Jekyll include if site.search_enabled is true; see _includes/icons/icons.html
       var resultDoc = document.createElement('div');
       resultDoc.classList.add('search-result-doc');
-      resultDoc.innerHTML = '<svg viewBox="0 0 24 24" class="search-result-icon"><use xlink:href="#svg-doc"></use></svg>';
+      if(doc.doc == guideTitle.slice(1)){
+        resultDoc.innerHTML = '<svg viewBox="0 0 24 24" class="search-result-icon"><use xlink:href="#svg-doc"></use></svg>';
+      }
+      else{
+        resultDoc.innerHTML ='<svg viewBox="0 0 24 24" class="search-result-icon"><use xlink:href="#svg-external-link"></use></svg>'
+      }
+
+      //resultDoc.innerHTML = '<svg viewBox="0 0 24 24" class="search-result-icon"><use xlink:href="#svg-doc"></use></svg>';
       resultTitle.appendChild(resultDoc);
 
       var resultDocTitle = document.createElement('div');
       resultDocTitle.classList.add('search-result-doc-title');
-      resultDocTitle.innerHTML = doc.doc;
+      // console.log(doc.doc);
+      // console.log("------------");
+      // console.log("title")
+      // console.log(guideTitle.slice(1));
+      // console.log("title end")
+      if(doc.doc == guideTitle.slice(1)){
+        resultDocTitle.innerHTML = "This Document";
+        resultDocTitle.style.fontSize = "15px";
+      }
+      else{
+        resultDocTitle.innerHTML = "External Link";
+        resultDocTitle.style.fontSize = "15px";
+      }
       resultDoc.appendChild(resultDocTitle);
       var resultDocOrSection = resultDocTitle;
 

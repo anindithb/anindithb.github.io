@@ -17,3 +17,7 @@ entries:
     - title: Further Strategies to consider for data ingestion
       url: '#further-strategies-to-consider-for-data-ingestion'
       output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/connecting-data-clean-rooms'
+      output: web

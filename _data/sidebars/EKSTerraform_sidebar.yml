@@ -51,4 +51,8 @@ entries:
 
     - title: Support and Troubleshooting
       url: '#support-and-troubleshooting'
+      output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/automated-provisioning-of-amazon-eks-using-terraform'
       output: web 

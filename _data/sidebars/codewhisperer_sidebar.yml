@@ -15,5 +15,5 @@ entries:
 
     - title: Build applications using AWS services
       url: '#use-case-build-applications-using-aws-services'
-      output: web
+      output: web 
 

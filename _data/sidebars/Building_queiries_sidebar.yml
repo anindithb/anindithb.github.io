@@ -30,3 +30,7 @@ entries:
     - title: Example Scenario and Queries
       url: '#example-scenario-and-queries'
       output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/building-queries-clean-rooms'
+      output: web

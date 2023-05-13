@@ -61,3 +61,7 @@ entries:
     - title: Notices
       url: '#notices'
       output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/connecting-data-from-google-analytics'
+      output: web

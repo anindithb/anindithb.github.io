@@ -64,10 +64,10 @@ search:
   previews: 2
   # Maximum amount of words to display before a matched word in the preview
   # Default: 5
-  preview_words_before: 3
+  preview_words_before: 2
   # Maximum amount of words to display after a matched word in the preview
   # Default: 10
-  preview_words_after: 3
+  preview_words_after: 2
   # Set the search token separator
   # Default: /[\s\-/]+/
   # Example: enable support for hyphenated search words
@@ -101,11 +101,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "AWS Solutions Library Samples on GitHub":
+    - "https://github.com/aws-solutions-library-samples"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil

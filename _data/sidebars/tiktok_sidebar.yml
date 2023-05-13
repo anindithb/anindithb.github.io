@@ -56,3 +56,7 @@ entries:
     - title: AWS glossary
       url: '#aws-glossary'
       output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/uploading-audiences-to-tiktok-ads'
+      output: web

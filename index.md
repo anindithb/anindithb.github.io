@@ -5,6 +5,7 @@ permalink: index.html
 has_toc: false
 layout: home
 nav_exclude: true
+search_exclude: true
 ---
 <div class="container">
     <div class="row">

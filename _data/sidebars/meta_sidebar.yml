@@ -28,3 +28,7 @@ entries:
     - title: Notices
       url: '#notices'
       output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/uploading-audiences-to-meta-business-marketing-platform'
+      output: web

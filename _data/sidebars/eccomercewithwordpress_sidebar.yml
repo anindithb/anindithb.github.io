@@ -11,4 +11,8 @@ entries:
 
     - title: Architecture workflow
       url: '#architecture-workflow'
+      output: web
+
+    - title: See this use case in AWS Solutions Library
+      external_url: 'https://aws.amazon.com/solutions/guidance/launching-a-simple-ecommerce-website-with-wordpress-on-aws'
       output: web 
