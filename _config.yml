@@ -21,6 +21,20 @@ title: AWS Solutions Library Samples
 
 permalink: pretty
 
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  cloudfoundations:
+    permalink: "/:collection/:path.html"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    cloudfoundations:
+      # Give the collection a name
+      name: cloudfoundations
+
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
    - .sass-cache/

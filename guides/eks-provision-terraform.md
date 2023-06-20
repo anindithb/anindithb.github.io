@@ -4,9 +4,9 @@ summary: "Use EKS Bluprints to deploy Amazon Elastic Kubernetes Service (EKS) wi
 published: true
 hide_sidebar: false
 sidebar: EKSTerraform_sidebar
-permalink: automated-provisioning-of-amazon-eks-using-terraform.html
+permalink: compute/automated-provisioning-of-amazon-eks-using-terraform.html
 folder: guides
-tags: document
+tags: compute
 layout: page
 ---
 

@@ -4,9 +4,9 @@ summary: This guide covers the information you need to deploy "Guidance for Mete
 published: true
 hide_sidebar: false
 sidebar: meter_data_analytics_sidebar
-permalink: meter-data-analytics.html
+permalink: analytics/meter-data-analytics.html
 folder: guides
-tags: document
+tags: analytics
 layout: page
 ---
 

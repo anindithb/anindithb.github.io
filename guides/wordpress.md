@@ -5,9 +5,9 @@ capabilities, without having to delve into complex coding or configuration."
 published: true
 hide_sidebar: false
 sidebar: eccomercewithwordpress_sidebar
-permalink: launching-simple-ecommerce-website-with-wordpress-on-aws.html
+permalink: retail/launching-simple-ecommerce-website-with-wordpress-on-aws.html
 folder: guides
-tags: document
+tags: retail
 layout: page
 ---
 

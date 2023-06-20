@@ -4,9 +4,9 @@ summary: "This Guidance shows how to use Google Analytics 4 data in AWS to make 
 published: true
 hide_sidebar: false
 sidebar: google_sidebar
-permalink: connecting-data-from-google-analytics.html
+permalink: advertising-marketing/connecting-data-from-google-analytics.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

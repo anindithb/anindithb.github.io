@@ -4,9 +4,9 @@ summary: "In this Guidance, you will ingest customer profile data from the Adobe
 published: true
 hide_sidebar: false
 sidebar: AEP_IG_sidebar
-permalink: connecting-data-from-adobe-experience-platform.html
+permalink: advertising-marketing/connecting-data-from-adobe-experience-platform.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

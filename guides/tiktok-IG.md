@@ -4,9 +4,9 @@ summary: "This Guidance assists AWS customers with automating the uploading of T
 published: true
 hide_sidebar: false
 sidebar: tiktok_sidebar
-permalink: uploading-audiences-to-tiktok-ads.html
+permalink: advertising-marketing/uploading-audiences-to-tiktok-ads.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

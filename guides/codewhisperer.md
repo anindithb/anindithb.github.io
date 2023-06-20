@@ -4,9 +4,9 @@ summary: Use this Guidance to learn how CodeWhisperer can improve your code deve
 published: true
 hide_sidebar: false
 sidebar: codewhisperer_sidebar
-permalink: developing-applications-using-generative-ai-with-amazon-codewhisperer.html
+permalink: ai-ml/developing-applications-using-generative-ai-with-amazon-codewhisperer.html
 folder: guides
-tags: document
+tags: aiml
 layout: page
 ---
 

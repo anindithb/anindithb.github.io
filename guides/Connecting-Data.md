@@ -5,9 +5,9 @@ data providers in the advertising and marketing industry provision data for an A
 published: true
 hide_sidebar: false
 sidebar: connectingdata_sidebar
-permalink: connecting-data-clean-rooms.html
+permalink: advertising-marketing/connecting-data-clean-rooms.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

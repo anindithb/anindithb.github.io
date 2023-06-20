@@ -5,9 +5,9 @@ Then it illustrates how to use Amazon Athena and Amazon QuickSight for further a
 published: true
 hide_sidebar: false
 sidebar: Building_queiries_sidebar
-permalink: building-queries-clean-rooms.html
+permalink: advertising-marketing/building-queries-clean-rooms.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

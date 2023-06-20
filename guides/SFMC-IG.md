@@ -4,9 +4,9 @@ summary: "This Guidance demonstrates how to import audience and campaign data fr
 published: false
 hide_sidebar: false
 sidebar: SFMC-IG_sidebar
-permalink: connecting-data-from-salesforce-marketing-cloud.html
+permalink: advertising-marketing/connecting-data-from-salesforce-marketing-cloud.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 

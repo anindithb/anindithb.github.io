@@ -6,8 +6,8 @@ Salesforce Marketing Cloud, Adobe Experience Platform, and Google Cloud
 Platform and import the data into AMC. "
 published: true
 sidebar: AdvertiserUploads_sidebar
-permalink: connecting-audiences-to-amazon-marketing-cloud-uploader.html
-tags: document
+permalink: advertising-marketing/connecting-audiences-to-amazon-marketing-cloud-uploader.html
+tags: amt
 layout: page
 ---
 

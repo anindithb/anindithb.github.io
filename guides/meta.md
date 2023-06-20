@@ -4,9 +4,9 @@ summary: "This Guidance demonstrates how AWS Clean Rooms can help marketers and 
 published: true
 hide_sidebar: false
 sidebar: meta_sidebar
-permalink: uploading-audiences-to-meta-business-marketing-platform.html
+permalink: advertising-marketing/uploading-audiences-to-meta-business-marketing-platform.html
 folder: guides
-tags: document
+tags: amt
 layout: page
 ---
 
